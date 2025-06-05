@@ -1,4 +1,4 @@
-# Video Processing Project
+# Drongo Video Processing Project
 
 This project processes a video file using OpenCV to apply various image processing techniques and save the output as a new video file. The script displays multiple processed versions of each frame (e.g., grayscale, HLS, HSV, etc.) and logs the process for debugging.
 
