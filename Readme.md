@@ -4,7 +4,7 @@ This project processes a video file using OpenCV to apply various image processi
 
 ## Prerequisites
 
-- Python 3.6 or higher
+- Python 3.11 or higher
 - A video file (e.g., Demo.mp4) to process
 - pip (Python package manager)
 
@@ -16,16 +16,16 @@ Follow these steps to set up and run the project:
 
 Create a virtual environment named venv to isolate project dependencies.
 
-python -m venv venv
+- python -m venv venv
 
 ### 2. Activate the Virtual Environment
 
 Activate the virtual environment to ensure dependencies are installed locally.
 
-On Windows:
+- On Windows:
 venv\Scripts\activate
 
-On macOS/Linux:
+- On macOS/Linux:
 source venv/bin/activate
 
 After activation, you should see (venv) in your terminal prompt.
@@ -34,17 +34,17 @@ After activation, you should see (venv) in your terminal prompt.
 
 Install the opencv-python package, which is required for video processing.
 
-pip install opencv-python
+- pip install opencv-python
 
 ### 4. Update Video Path
 
 The script (Video_processing.py) references a video file at the following path:
 
-video_path = '/path/to/your/video/Demo.mp4'
+- video_path = '/path/to/your/video/Demo.mp4'
 
 Before running the script, update the video_path variable in Video_processing.py to point to the location of your Demo.mp4 file. For example:
 
-video_path = '/home/user/videos/Demo.mp4'  # Replace with your actual video file path
+- video_path = '/home/user/videos/Demo.mp4'  # Replace with your actual video file path
 
 To edit the file:
 1. Open Video_processing.py in a text editor.
@@ -55,7 +55,7 @@ To edit the file:
 
 Run the video processing script:
 
-python Video_processing.py
+- python Video_processing.py
 
 ## What the Script Does
 
